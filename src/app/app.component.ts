@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'HolaXX app works!';
+  userSelected: any;
+
+  onSelected(user: any) {
+    this.userSelected = user;
+  }
+
 }
